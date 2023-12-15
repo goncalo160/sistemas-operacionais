@@ -1,140 +1,111 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sistemas operacionias</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .title {
+            color: #b84d4d;
+            animation: changeColor 3s infinite;
+        }
+
+        @keyframes changeColor {
+            0% { color: #14b1c5; }
+            33% { color: #80167a; }
+            66% { color: #4d4db8; }
+            100% { color: #b84d4d; }
+        }
+
+        .img-responsive {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <title>Sistemas Operacionais</title>
 </head>
-<body>
-    <h2>sistemas operacionais</h2>
-     <li>Um sistema operacional (SO) é um software fundamental que atua como uma interface entre o hardware do computador e os aplicativos de software. </li>
-     <li> Ele gerencia recursos de hardware, fornece serviços para aplicativos e oferece uma interface para os usuários interagirem com o computador.</li>
+<body class="background">
 
-   <h2><li>Definição do modelo de logins</li></h2>
-    <h2>1. Identificação do Usuário:</h2>
-    </li>
-    <li>Estabelecer como os usuários serão identificados no sistema, seja por meio de nomes de usuário, endereços de e-mail ou outros identificadores exclusivos.</li>
+    <img class="img-responsive" src="https://s.zst.com.br/cms-assets/2022/08/o_que_e_sistema_operacional_corpo.webp" alt="Imagem sobre sistema operacional" width="320" height="300">
 
-    <h2>2. Autenticação:
-</h2>
-     <li>Definir os métodos de autenticação utilizados para verificar a identidade dos usuários. Isso pode incluir senhas, autenticação de dois fatores (2FA), autenticação biométrica, entre outros.
-    </li>
+    <h1 class="title">Sistemas Operacionais</h1>
+    <p>Um sistema operacional (SO) é um software fundamental que atua como uma interface entre o hardware do computador e os aplicativos de software. Ele gerencia recursos de hardware, fornece serviços para aplicativos e oferece uma interface para os usuários interagirem com o computador.</p>
 
-    <h2>3. Políticas de Senha:
-    </h2>
-     <li>Estabelecer políticas relacionadas às senhas, como requisitos de complexidade, expiração, e regras para troca periódica.
-    </li>
-    <h2>4. Bloqueio de Conta e Tentativas Malsucedidas:
-    </h2>
-    <li>Implementar medidas de segurança, como bloqueio de contas após um número específico de tentativas malsucedidas, para proteger contra ataques de força bruta.
-    </li>
-     
-     <h2>5. Registro de Atividades (Logs):
-    </h2>
-      <li>Configurar a geração de logs para registrar atividades relacionadas aos logins, facilitando a auditoria e detecção de atividades suspeitas.
-    </li>
+    <h2>Definição do modelo de logins</h2>
+    <h3>1. Identificação do Usuário:</h3>
+    <ul>
+        <li>Estabelecer como os usuários serão identificados no sistema, seja por meio de nomes de usuário, endereços de e-mail ou outros identificadores exclusivos.</li>
+    </ul>
 
-      <h2>6. Segurança da Transmissão:
-    </h2>
-      <li>Garantir que as informações de login sejam transmitidas de forma segura por meio de criptografia, especialmente em ambientes online.
-    </li>
+    <h3>2. Autenticação:</h3>
+    <ul>
+        <li>Definir os métodos de autenticação utilizados para verificar a identidade dos usuários. Isso pode incluir senhas, autenticação de dois fatores (2FA), autenticação biométrica, entre outros.</li>
+    </ul>
 
-      <h2>7. Gestão de Sessões:
-    </h2>
-     <li>Estabelecer políticas para gerenciar sessões de usuários ativos, incluindo tempo limite de inatividade e ações permitidas durante uma sessão.
-    </li>
+    <h2>Instalação do SO a partir de periféricos</h2>
 
-     <h2>8. Recuperação de Conta:
-    </h2>
-     <li>Implementar procedimentos seguros para a recuperação de contas, como perguntas de segurança ou links de recuperação enviados por e-mail.
-    </li>
+    <h2>1. Escolha do Sistema Operacional:</h2>
+    <ul>
+        <li>Escolha o sistema operacional que deseja instalar e faça o download da imagem de instalação correspondente. Pode ser o Windows, Linux, macOS, etc.</li>
+    </ul>
 
-     <h2>9. Integração com Sistemas de Terceiros:
-    </h2>
-      <li>Se necessário, considerar como o sistema de login se integra com sistemas de autenticação de terceiros, como redes sociais ou serviços de identidade federada.
-    </li>
+    <h2>2. Mídia de Instalação Inicializável:</h2>
+    <ul>
+        <li>Conecte um pendrive USB ao seu computador.</li>
+        <li>Formate o pendrive para garantir que esteja vazio e pronto para uso.</li>
+        <li>Use um software de criação de mídia de inicialização, como o Rufus (para Windows) ou o balenaEtcher (multiplataforma), para gravar a imagem do SO no pendrive.</li>
+    </ul>
 
-     <h2>10. Conformidade com Regulamentações:
-    </h2>
-    <li>Verificar se o modelo de logins está em conformidade com regulamentações de privacidade e segurança, como o GDPR (Regulamento Geral de Proteção de Dados) ou normas específicas do setor.
-    </li>
+    <h2>Microsoft Windows</h2>
+    <p>Requisitos típicos para o Windows 10:</p>
+    <ul>
+        <li>Processador de 1 GHz ou mais rápido</li>
+        <li>2 GB de RAM (para versões de 64 bits)</li>
+        <li>32 GB de espaço em disco</li>
+        <li>Placa gráfica compatível com DirectX 9</li>
+    </ul>
 
-    <h2>11. Notificações de Atividade Suspeita:
-    </h2>
-     <li>Implementar notificações automáticas para usuários ou administradores quando atividades de login suspeitas são detectadas.
-    </li>
+    <h2>macOS</h2>
+    <p>Exemplo de requisitos para o macOS Catalina:</p>
+    <ul>
+        <li>Mac lançado em meados de 2012 ou posterior</li>
+        <li>2 GB de RAM</li>
+        <li>12,5 GB de espaço em disco</li>
+    </ul>
 
-      <h2>Instalação do SO a partir de periféricos.</h2>
+    <h2>Linux</h2>
+    <p>Requisitos podem variar, dependendo da distribuição escolhida.</p>
 
-      <h2>1. Escolha do Sistema Operacional:
-      </h2>
+    <h2>Android</h2>
+    <p>Requisitos variam com a versão do Android e o fabricante do dispositivo.</p>
 
-      <li>Escolha o sistema operacional que deseja instalar e faça o download da imagem de instalação correspondente. Pode ser o Windows, Linux, macOS, etc.
+    <h2>iOS</h2>
+    <p>Modelos mais antigos podem não suportar as versões mais recentes do iOS.</p>
 
-      </li>
+    <h1>Exigências do Sistema Operativo</h1>
 
-        <h2>2. Mídia de Instalação Inicializável:
-        </h2>
-          
-         <li>Conecte um pendrive USB ao seu computador.</li>
-         <li>Formate o pendrive para garantir que esteja vazio e pronto para uso.
-        </li>
-         <li>Use um software de criação de mídia de inicialização, como o Rufus (para Windows) ou o balenaEtcher (multiplataforma), para gravar a imagem do SO no pendrive.
-        </li>
-         
-          <h2>3. Configuração da BIOS/UEFI:
-          </h2>
-             
-           <li>Reinicie ou ligue o computador.
-          </li>
-           <li>Pressione a tecla apropriada para acessar o menu de configuração da BIOS/UEFI. Isso geralmente é feito pressionando uma tecla como F2, F10, Del ou Esc durante a inicialização.
-          </li>
-          <li>Vá para a seção de configuração de inicialização e altere a ordem de inicialização para que o periférico a partir do qual deseja instalar (pendrive ou DVD) esteja no topo da lista.
-          </li>
+    <h2>Exemplo de Requisitos Mínimos:</h2>
+    <ul>
+        <li><strong>Processador (CPU):</strong> Processador de 2 GHz ou superior.</li>
+        <li><strong>Memória RAM:</strong> 4 GB de RAM.</li>
+        <li><strong>Espaço de Armazenamento:</strong> 20 GB de espaço disponível no disco.</li>
+        <li><strong>Placa de Vídeo:</strong> Placa gráfica compatível com DirectX 11.</li>
+        <li><strong>Resolução de Tela:</strong> Mínimo de 1024x768 pixels.</li>
+        <li><strong>Conectividade:</strong> Conexão à internet para atualizações.</li>
+    </ul>
 
-          <h2>4. Inicialização e Instalação:
-          </h2>
+    <h1>Configuração do Sistema Operacional</h1>
 
-          <li>Salve as configurações da BIOS/UEFI e saia.
-          </li>
-           <li>O computador será reiniciado a partir do periférico escolhido, e você verá a tela de instalação do sistema operacional.
-          </li>
-          <li>Siga as instruções na tela para iniciar o processo de instalação.
-          </li>
-
-
-
-
-    <h1>nome gonçalo dias</h1>
-    <h1>curso PI1</h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
+    <h2>Personalize de Acordo com Suas Necessidades:</h2>
+    <ul>
+        <li><strong>Papéis do Sistema:</strong> Escolha entre servidor, estação de trabalho, desenvolvimento, etc.</li>
+        <li><strong>Interface Gráfica:</strong> Selecione uma interface de usuário (por exemplo, GNOME, KDE, XFCE).</li>
+        <li><strong>Configurações de Rede:</strong> Defina configurações de rede, como DHCP ou configuração manual.</li>
+        <li><strong>Segurança:</strong> Configure firewalls, antivírus e outras medidas de segurança.</li>
+        <li><strong>Atualizações Automáticas:</strong> Ative ou desative atualizações automáticas do sistema.</li>
+        <li><strong>Aplicativos Padrão:</strong> Escolha seus aplicativos padrão, como navegador, cliente de email, etc.</li>
+        <li><strong>Personalização de Aparência:</strong> Ajuste temas, papéis de parede e outros elementos visuais.</li>
+    </ul>
 
 </body>
 </html>
